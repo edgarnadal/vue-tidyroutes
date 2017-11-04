@@ -1,0 +1,32 @@
+{
+  "name": "vue-tidy-routes",
+  "version": "0.0.0",
+  "description": "Tidy routes definitions accross your entire project",
+  "main": "main.js",
+  "scripts": {
+  	"build": "rm -rf ./dist && webpack --config ./webpack.config.js && webpack --config webpack.config.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/edgarnadal/vue-tidy-routes.git"
+  },
+  "author": "Edgar Nadal <edgar@craftware.co>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/edgarnadal/vue-tidy-routes/issues"
+  },
+  "homepage": "https://github.com/edgarnadal/vue-tidy-routes#readme",
+  "dependencies": {
+    "vue": "^2.1.10",
+    "vue-router": "^2.7.0"
+  },
+  "devDependencies": {
+  	"babel-core": "^6.22.1",
+  	"babel-loader": "^6.2.10",
+  	"babel-plugin-transform-runtime": "^6.22.0",
+  	"babel-preset-es2015": "^6.22.0",
+  	"babel-preset-stage-2": "^6.22.0",
+  	"webpack": "^1.14.0",
+  	"webpack-merge": "^2.6.1"
+  }
+}
