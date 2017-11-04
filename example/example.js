@@ -1,30 +1,31 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import VueTidyRoutes from 'vue-tidy-routes'
+import VueTidyRoutes from 'vue-tidyroutes'
 
 import './component1'
-import 'component2'
+import './component2'
+import './component3'
 
 Vue.use(VueRouter)
 // Vue.use(VueTidyRoutes)
 
 const router = new VueRouter({
-	mode: 'history',
-	base: __dirname,
-	routes: Vue.$routes().all()
+    // mode: 'history',
+    // base: __dirname,
+    routes: VueTidyRoutes.export()
 })
 
 new Vue({
 
-	router,
+    router,
 
     el: '#app',
 
-	template: `
-	<div>
-		<h1>Example</h1>
-		<router-view></router-view>
-	</div>
-	`
+    template: `
+    <div>
+        <h1>Example</h1>
+        <router-view></router-view>
+    </div>
+    `
 
 })
