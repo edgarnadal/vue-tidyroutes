@@ -1,5 +1,5 @@
 /*!
- *  Vue TidyRoutes plugin v0.1.0
+ *  Vue TidyRoutes plugin v0.1.1
  * 
  *  ... 
  *  @author undefined <undefined>
