@@ -1,5 +1,5 @@
-import Vue from 'vue'
-import VueTidyRoutes from 'vue-tidyroutes'
+
+import VueTidyRoutes from 'vue-tidyroutes';
 
 const Component2 = {
 	template: `
@@ -7,12 +7,12 @@ const Component2 = {
 		<h2>Component2</h2>
 		<router-view></router-view>
 	</div>`
-}
+};
 
-const ChildComponent1 = { template: '<div>child component 1</div>' }
-const ChildComponent2 = { template: '<div>child component 2</div>' }
+const ChildComponent1 = { template: '<div>child component 1</div>' };
+const ChildComponent2 = { template: '<div>child component 2</div>' };
 
-VueTidyRoutes.path('/component2', {
+VueTidyRoutes.route('/component2', {
 	name: 'component2',
 	component: Component2,
     children: {
@@ -30,4 +30,4 @@ VueTidyRoutes.path('/component2', {
     }
 });
 
-export default Component2
+export default Component2;

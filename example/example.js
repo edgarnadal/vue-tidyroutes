@@ -7,11 +7,8 @@ import './component2'
 import './component3'
 
 Vue.use(VueRouter)
-// Vue.use(VueTidyRoutes)
 
 const router = new VueRouter({
-    // mode: 'history',
-    // base: __dirname,
     routes: VueTidyRoutes.export()
 })
 
@@ -27,5 +24,4 @@ new Vue({
         <router-view></router-view>
     </div>
     `
-
 })
