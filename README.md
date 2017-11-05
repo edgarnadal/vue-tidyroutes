@@ -109,6 +109,7 @@ VueTidyRoutes.route('/foo', {
 ```
 
 Detailed example at [/example](https://github.com/edgarnadal/vue-tidyroutes/tree/master/example)
+To run the example just: `npm run example`
 
 ## License
 
