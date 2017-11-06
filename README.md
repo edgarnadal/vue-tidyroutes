@@ -111,7 +111,15 @@ VueTidyRoutes.route('/foo', {
 Detailed example at [/example](https://github.com/edgarnadal/vue-tidyroutes/tree/master/example)
 To run the example just: `npm run example`
 
+## Methods
+
+| Method   | Description                                                                               | Example                                                                                         |
+|----------|-------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
+| .route    | Defines a new route  with the given options                                               | `VueTidyRoutes.route('/home', {...options})`                                                    |
+| .children | Defines a group of child for the current route                                            | `VueTidyRoutes.route('/contact').children({ '/phone':  ...options}, {'/location': ...options})` |
+| .child    | Defines a single child for the route                                                      | `VueTidyRoutes.route('/places).child('/centralpark', { ...options })`                           |
+| .export   | Returns all the defined routes in the entire project in the format that VueRouter expects | `const router = new VueRouter({routes: VueTidyRoutes.export()})`                                |
+
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE) for more information.
-
