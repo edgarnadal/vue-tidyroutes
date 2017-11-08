@@ -1,6 +1,6 @@
 {
   "name": "vue-tidyroutes",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Tidy routes definitions accross your entire project",
   "main": "dist/tidyroutes.js",
   "dependencies": {
