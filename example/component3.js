@@ -1,9 +1,9 @@
 
-import VueTidyRoutes from 'vue-tidyroutes';
+import Routes from 'vue-tidyroutes';
 
 const ChildComponent3 = { template: '<div>child component 3</div>' };
 
-VueTidyRoutes.route('/component2')
+Routes.route('/component2')
     .child('child-3', {
         name: 'child-3',
         component: ChildComponent3

@@ -1,9 +1,9 @@
 
-import VueTidyRoutes from 'vue-tidyroutes';
+import Routes from 'vue-tidyroutes';
 
 const Component1 = { template: '<div><h2>Component1</h2></div>' };
 
-VueTidyRoutes.route('/component1', {
+Routes.route('/component1', {
 	name: 'component1',
 	component: Component1
 });

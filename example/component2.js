@@ -1,5 +1,5 @@
 
-import VueTidyRoutes from 'vue-tidyroutes';
+import Routes from 'vue-tidyroutes';
 
 const Component2 = {
 	template: `
@@ -12,7 +12,7 @@ const Component2 = {
 const ChildComponent1 = { template: '<div>child component 1</div>' };
 const ChildComponent2 = { template: '<div>child component 2</div>' };
 
-VueTidyRoutes.route('/component2', {
+Routes.route('/component2', {
 	name: 'component2',
 	component: Component2,
     children: {
