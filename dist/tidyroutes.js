@@ -2,7 +2,7 @@
  *  Vue TidyRoutes plugin v0.1.2
  * 
  *  ... 
- *  @author undefined <undefined>
+ *  @author Edgar Nadal <edgar@craftware.co>
  *  https://github.com/edgarnadal/vue-tidyroutes#readme
  *  Released under the MIT License.
  */
@@ -434,4 +434,4 @@ function(module,exports,__webpack_require__){var $export=__webpack_require__(4);
 // 19.1.2.4 / 15.2.3.6 Object.defineProperty(O, P, Attributes)
 $export($export.S+$export.F*!__webpack_require__(14),"Object",{defineProperty:__webpack_require__(10).f})},/* 87 */
 /***/
-function(module,exports,__webpack_require__){"use strict";function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{default:obj}}Object.defineProperty(exports,"__esModule",{value:!0});var _classCallCheck2=__webpack_require__(82),_classCallCheck3=_interopRequireDefault(_classCallCheck2),_createClass2=__webpack_require__(83),_createClass3=_interopRequireDefault(_createClass2),Route=function(){function Route(path,options){if((0,_classCallCheck3.default)(this,Route),this.path=path,this.options=options,this.children={},options.hasOwnProperty("children")){for(var _path in options.children)this.child(_path,options.children[_path]);delete options.children}}return(0,_createClass3.default)(Route,[{key:"child",value:function(path,options){return this.children[path]=options,this}}]),Route}();exports.default=Route}])});
+function(module,exports,__webpack_require__){"use strict";function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{default:obj}}Object.defineProperty(exports,"__esModule",{value:!0});var _classCallCheck2=__webpack_require__(82),_classCallCheck3=_interopRequireDefault(_classCallCheck2),_createClass2=__webpack_require__(83),_createClass3=_interopRequireDefault(_createClass2),Route=function(){function Route(path,options){if((0,_classCallCheck3.default)(this,Route),this.path=path,this.options=options,this.children={},options.hasOwnProperty("children")){for(var _path in options.children)this.child(_path,options.children[_path]);delete options.children}return options.component}return(0,_createClass3.default)(Route,[{key:"child",value:function(path,options){return this.children[path]=options,this}}]),Route}();exports.default=Route}])});
