@@ -4,7 +4,7 @@ const banner  =
     " Vue TidyRoutes plugin v" + package.version + "\n" +
     "\n" +
     " ... \n" +
-    " @author "+ package.author.name +" <"+ package.author.email +">\n" +
+    " @author "+ package.author + "\n" +
     " "+ package.homepage +"\n" +
     " Released under the MIT License.";
 
