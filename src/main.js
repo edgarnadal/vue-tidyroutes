@@ -36,7 +36,7 @@ class TidyRoutes {
             routes.push(Object.assign({ path: path }, options));
         })
 
-        return routes
+        return routes;
     }
 
     route(path, options) {
