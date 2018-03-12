@@ -21,7 +21,7 @@ class TidyRoutes {
         this.routes.forEach((option, path) => {
 
             let route = this.routes.get(path);
-            let options = route.options;
+            let options = route.options || {};
 
             options.children = [];
 
@@ -34,7 +34,7 @@ class TidyRoutes {
             }
 
             routes.push(Object.assign({ path: path }, options));
-        })
+        });
 
         return routes;
     }
