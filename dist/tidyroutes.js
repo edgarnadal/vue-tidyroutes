@@ -1,5 +1,5 @@
 /*!
- *  Vue TidyRoutes plugin v0.1.3
+ *  Vue TidyRoutes plugin v0.1.4
  * 
  *  ... 
  *  @author Edgar Nadal <edgar@craftware.co>
