@@ -19,7 +19,7 @@ export default class Route {
     }
 
     child(path, options) {
-        this.children[path] = options;
+        this.children[path.replace(/^\/|\/$/g, '')] = options;
         return this;
     }
 }
